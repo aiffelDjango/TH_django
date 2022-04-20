@@ -19,7 +19,9 @@ import Landing.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('landing/', Landing.views.index, name='index')
+    path('', Landing.views.index, name="index"),
+    path('landing/', Landing.views.index, name='index'),
+    path('study/', Landing.views.study, name="study")    
 ]
 
 

@@ -1,0 +1,15 @@
+h1 { color: red; }
+p  { background: aqua; }
+
+.center{
+    text-align: center;
+  }
+  .red{
+    color:red
+  }
+  .blue{
+    color:blue
+  }
+  .large{
+    font-size: 40px;
+  }
