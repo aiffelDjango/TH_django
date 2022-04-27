@@ -21,7 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Landing.views.index, name="index"),
     path('landing/', Landing.views.index, name='index'),
-    path('study/', Landing.views.study, name="study")    
+    path('study/', Landing.views.study, name="study"),
+    path('sticker',Landing.views.sticker,name="sticker"), #스티커 입력하는 페이지
+    path('stickerResult',Landing.views.stickerResult,name="stickerResult") #스티커 보여주는 페이지  
 ]
 
 
